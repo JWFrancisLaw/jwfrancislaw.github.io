@@ -1,0 +1,52 @@
+/*I started with the classes provided in Lab 8 and adapted them to my website.*/
+
+.description{
+
+    background-color: #fff;
+    color: #212529;
+    font-size: large;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.paintingTitle{
+
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.painting{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: auto;
+
+}
+
+.painter{
+    color: #212529;
+    font-size: xx-large;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.year{
+    color: #212529;
+    font-size: x-large;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+

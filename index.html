@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- I used the CS50 Lab 8 to help implement some of my logic on the travel page. I've included comments but the logic is similar to what I implemented in Lab 8-->
+        <!-- I used bootstrap to reference the various components but used this video https://youtu.be/4sosXZsdy-s for some inspiration for designing the homepage. I 'copied' html directly from
+        bootstrap on it's reference pages and I played with, trialed, and implemented all the boostrap components used here myself-->
+        <!-- On occassion, I had to google various tips such as what elements were that I had never seen before/forgoten (i.e. a> is a link) -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-info" href="#index.html">JWFrancis Law</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="reading.html">Reading</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="art.html">Art</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="travel.html">Travel</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <section class="p-5">
+          <h2 style="text-align: center">Welcome to my Website!</h2>
+          <br>
+          <div class="container">
+            <div class="row text-centre">
+              <!-- Reading -->
+              <div class="col-md">
+                <div class="card bg-dark text-light">
+                  <a class="text-light text-center" href="reading.html">My Favourite Books</a>
+                  <div class="card-body text-centre">
+                    <img src="reading.jpg" alt="book" class="card-img-top">
+                  </div>
+                </div>
+              </div>
+              <!-- ART -->
+              <div class="col-md">
+                <div class="card bg-dark text-light">
+                  <a class="text-light text-center" href="art.html">What kind of art do I like?</a>
+                  <div class="card-body text-centre">
+                    <img src="art.jpg" alt="art museum" class="card-img-top">
+                  </div>
+                </div>
+              </div>
+              <!-- Travel -->
+              <div class="col-md">
+                <div class="col-md">
+                  <div class="card bg-dark text-light">
+                    <a class="text-light text-center" href="travel.html">Where have we both been?</a>
+                    <div class="card-body text-centre">
+                      <img src="travel.jpg" alt="compass" class="card-img-top">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </body>
+</html>
