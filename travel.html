@@ -9,18 +9,20 @@
           //check that the page has finished loading
           document.addEventListener('DOMContentLoaded', function() {
                 //define each field on the page
-                let feedback = document.querySelector('#feedback');
-                let answer = document.querySelector('#answer');
-                let submit = document.querySelector('#submit');
+                const feedback = document.querySelector('#feedback');
+                const answer = document.querySelector('#answer');
+                const submit = document.querySelector('#submit');
+
+                const vistedCountries = ["United Kingdom", "United States", "Canada", "France"];
+
                 //wait for the user to click the submit button before comparing their answer to the four countries I have visted.
                 submit.addEventListener('click', function() {
-                    if(answer.value == "United Kingdom" || answer.value == "United States" || answer.value == "Canada" || answer.value == "France" ) {
+                    if(vistedCountries.includes(answer.value)) {
                         feedback.innerHTML = "I have also been to that place!"
                     } else {
                         feedback.innerHTML = "I have yet to venture there!"
                     }
                 });
-
           });
         </script>
     </head>
